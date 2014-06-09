@@ -1,0 +1,60 @@
+---
+:source:
+  :path: test
+  :file: test_TRIANGLE.c
+:successes:
+- :test: test_side1_is_4_side2_is_2_and_length_is_5
+  :line: 15
+  :message: ''
+- :test: test_side1_is_5_side2_is_5_and_length_is_8
+  :line: 22
+  :message: ''
+- :test: test_side1_is_2_side2_is_8_and_length_is_2
+  :line: 29
+  :message: ''
+- :test: test_side1_is_8_side2_is_12_and_length_is_12
+  :line: 36
+  :message: ''
+- :test: test_side1_is_8_side2_is_8_and_length_is_8
+  :line: 43
+  :message: ''
+- :test: test_side1_is_negative2_side2_is_4_and_length_is_8
+  :line: 51
+  :message: ''
+- :test: test_side1_is_negative2_side2_is_5_and_length_is_negative6
+  :line: 58
+  :message: ''
+- :test: test_side1_is_negative8_side2_is_negative8_and_length_is_negative8
+  :line: 65
+  :message: ''
+- :test: test_side1_is_10_side2_is_30_and_length_is_8
+  :line: 72
+  :message: ''
+- :test: test_side1_is_0_side2_is_0_and_length_is_8
+  :line: 79
+  :message: ''
+- :test: test_side1_is_0_side2_is_0_and_length_is_0
+  :line: 86
+  :message: ''
+- :test: test_side1_is_1_side2_is_1_and_length_is_7
+  :line: 93
+  :message: ''
+- :test: test_side1_is_7_side2_is_12_and_length_is_3
+  :line: 100
+  :message: ''
+- :test: test_AreLengthsAllStrictlyPositive_given_2_3_4_should_throw_exception
+  :line: 107
+  :message: ''
+- :test: test_isTriangle_given_8_6_9_should_not_throw_exception
+  :line: 122
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 15
+  :passed: 15
+  :failed: 0
+  :ignored: 0
+:stdout:
+- Lengths are strictly positive
+- This is a Triangle

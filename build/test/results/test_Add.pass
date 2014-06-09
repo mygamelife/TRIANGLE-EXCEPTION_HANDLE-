@@ -1,0 +1,16 @@
+---
+:source:
+  :path: test
+  :file: test_Add.c
+:successes:
+- :test: test_add_2_and_3_should_return_5
+  :line: 14
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 1
+  :failed: 0
+  :ignored: 0
+:stdout: []
